@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: url("../img/background.jpeg") no-repeat;
+    background-size: 100%;
+    color: white;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.container {
+    width: 47%;
+    height: 540px;
+    margin: 5% auto;
+    background-color:  #212534;
+    box-shadow: 0px 23px 57px 0px rgba(0, 0, 0, 0.4);
+}
+
+.tabs__menu {
+    background-color:  #2b3040;
+    height: 115px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+
+.tabs__menu--icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.tabs__menu--el {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor:pointer;
+    opacity: 0.5;
+    width: 25%;
+    padding: 30px 0;
+}
+
+.tabs__menu--el.active {
+    opacity: 1;
+    border-bottom: 2px solid white;
+}
+
+.tabs {
+}
+
+.info {
+    display: none;
+    margin: 0 auto;
+}
+
+.info.active {
+    display:block;
+}
+.game__container {
+    margin: 8% 4%;
+    display: flex;
+    height: 310px;
+}
+
+.game__container--leftColumn {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.game__stars {
+    width: 110px;
+}
+
+.game__container--rightColumn {
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+
+.game__line1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game__title {
+    font-size: 32px;
+    padding: 10px 0;
+}
+
+.game__subtitle {
+    font-size: 14px;
+    color:  #fdfdfd;
+    text-transform: capitalize;
+}
+.game__line2 {
+
+}
+
+.game__text {
+    color:  #b7bacd;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.game__line3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game__discount {
+    color:  #fedd3f;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.game__price {
+    font-size: 32px;
+}
+
+.game__button {
+    border-radius: 2px;
+    border: none;
+    background-color:  #13e28d;
+    width: 164px;
+    height: 55px;
+    text-transform: uppercase;
+}
+
+.empty {
+    text-transform: uppercase;
+    color: #fedd3f;
+    font-size: 20px;
+    text-align: center;
+    margin: 3%;
+}
+
+.sad {
+    width: 300px;
+    height: 300px;
+    padding: 3%;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Tabs</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+
+<main class="container">
+
+    <ul class="tabs__menu">
+        <li class="tabs__menu--el active"><img class="tabs__menu--icon" src="img/tooltip.png" alt="tooltip">INFORMATION</LI>
+        <li class="tabs__menu--el "><img class="tabs__menu--icon" src="img/card.png" alt="card">RATINGS INFO</li>
+        <li class="tabs__menu--el "><img class="tabs__menu--icon" src="img/basket.png" alt="basket">WHERE TO BUY</li>
+    </ul>
+
+    <div class="tabs">
+
+        <div class="info active">
+            <div class="game__container">
+                <div class="game__container--leftColumn">
+                    <img  class="game__cover" src="img/cover.png" alt="cover">
+                    <img  class="game__stars" src="img/stars.png" alt="stars">
+                </div>
+                <div class="game__container--rightColumn">
+                    <div class="game__line1">
+                        <div>
+                            <h2 class="game__title">FarCry 4</h2>
+                            <h4 class="game__subtitle">first released nov 17, 2014</h4>
+                        </div>
+                        <img src="img/score.png" alt="score">
+                    </div>
+                    <div class="game__line2">
+                        <p class="game__text">
+                            In Far Cry 4, players find themselves in Kyrat,
+                            a breathtaking, perilous and wild region of
+                            the Hima layas struggling under the regime
+                            of a despotic self-appointed king.
+                        </p>
+                    </div>
+                    <div class="game__line3">
+                        <div>
+                            <span class="game__discount">20% OFF!</span>
+                            <h3 class="game__price">$59.96</h3>
+                        </div>
+                        <button class="game__button">buy it now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info empty">
+            <div>
+                no information available!
+            </div>
+            <img class="sad" src="img/sad.png" alt="sad">
+        </div>
+
+        <div class="info empty">
+            <div>
+                no information available!
+            </div>
+            <img class="sad" src="img/sad2.png" alt="sad">
+        </div>
+
+    </div>
+</main>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
